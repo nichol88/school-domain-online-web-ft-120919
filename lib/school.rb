@@ -18,8 +18,7 @@ class School
 
   def sort
     @roster.map{ |k, v|
-      puts g
-      g.sort
+      v.sort
     }
   end
 end
