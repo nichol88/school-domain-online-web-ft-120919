@@ -9,7 +9,9 @@ class School
 
   def add_student(name, grade)
     student = {name: name, grade: grade}
-    @roster << #new student
+    
+    @roster << student
+    
   end
 
 end
