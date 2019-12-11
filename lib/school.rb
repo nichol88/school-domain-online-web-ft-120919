@@ -4,5 +4,5 @@ class School
     @roster = []
     @name = name
   end
-  
+
 end
