@@ -18,6 +18,7 @@ class School
 
   def sort
     @roster.map{ |k, v|
+      puts v
       v.sort
     }
     @roster
