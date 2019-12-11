@@ -20,5 +20,6 @@ class School
     @roster = @roster.map{ |g|
       g.sort
     }
+    @roster
   end
 end
