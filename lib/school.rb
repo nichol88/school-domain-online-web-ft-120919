@@ -1,4 +1,4 @@
 # code here!
 class School
-  ROSTER = {}
+  @roster = {}
 end
