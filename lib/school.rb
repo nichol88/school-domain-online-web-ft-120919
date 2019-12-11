@@ -18,8 +18,9 @@ class School
 
   def sort
     @roster.map{ |k, v|
-      puts v
+      puts "B4: #{v}"
       v.sort
+      puts "aft #{v}"
     }
     @roster
   end
